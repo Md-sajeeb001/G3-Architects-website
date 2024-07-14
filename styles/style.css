@@ -14,4 +14,72 @@
     --secondary-color: rgb(114, 114, 114);
     --btn-color: rgb(255, 144, 14);
     --bg-secondary: rgb(255, 244, 231);
+    --secondary-text-color: rgb(66, 66, 66);
+}
+
+/* ===================HEADER SECITON START HERE===================== */
+.header-section{
+    max-width: 1440px;
+    height: 1060px;
+    background-color: var(--bg-danger-color);
+}
+.navber{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 10rem;
+}
+.brand{
+    font-size: 2.25rem;
+    font-weight: 700;
+    color: var(--text-color);
+}
+.navber ul{
+    display: flex;
+}
+.navber ul li{
+    margin-left: 2.5rem;
+}
+.navber ul li a{
+    color: var(--secondary-text-color);
+    font-size: 1.11rem;
+    font-weight: 500;
+}
+.banner-content-section{
+    max-width: 1140px;
+    /* height: auto; */
+    margin: 4rem auto;
+}
+.banner-content{
+    width: 900px;
+    height: 200px;
+    margin: 0 auto;
+    text-align: center;
+}
+.banner-content h1{
+    font-size: 3rem;
+    font-weight: 700;
+    color: var(--text-color);
+    padding-bottom: 1.5rem;
+}
+.banner-content p{
+    max-width: 55rem;
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--secondary-text-color);
+    padding-bottom: 1.8rem;
+}
+.btn button{
+    padding: .8rem 1.6rem;
+    border-radius: .4rem;
+    border: none;
+    font-size: 1.11rem;
+    font-weight: 400;
+    color: #fff;
+    background-color: var(--btn-color);
+    cursor: pointer;
+}
+.banner-img img{
+    width: 100%;
+    padding-top: 6rem;
 }
