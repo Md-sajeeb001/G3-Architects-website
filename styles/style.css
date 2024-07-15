@@ -246,6 +246,45 @@
 }
 /* ===================FACT FETURED SECTION END HERE===================== */
 
+/* ===================Sponspors SECTION Start HERE===================== */
+.Sponspors-seciton{
+    width: 1140px;
+    height: 300px;
+    margin: -6rem auto;
+}
+.sponspors-content{
+    text-align: center;
+    max-width: 38rem;
+    margin: 0 auto;
+}
+.sponspors-content h2{
+    font-size: 2.4rem;
+    font-weight: 700;
+    color: var(--text-color);
+    margin-bottom: 1.5rem;
+}
+.sponspors-content p{
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--secondary-color);
+}
+.sponspors-images{
+    margin-top: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.sponspors-images img{
+    cursor: pointer;
+    filter: grayscale(100%);
+    transition: all 0.3s ;
+}
+.sponspors-images img:hover{
+    filter: grayscale(0);
+}
+/* ===================Sponspors SECTION END HERE===================== */
+
 /* ======================MEDIA QUARY START HEER========================= */
 @media screen and (min-width:300px) and (max-width:390px){
     .banner-img img{
