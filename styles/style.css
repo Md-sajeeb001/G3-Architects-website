@@ -273,7 +273,6 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-
 }
 .sponspors-images img{
     cursor: pointer;
@@ -285,7 +284,15 @@
 }
 /* ===================Sponspors SECTION END HERE===================== */
 
+/* ===================FOOTER SECTION START HERE===================== */
+.footer-section{
+    width: 1140px;
+    height: 200px;
+}
+/* ===================FOOTER SECTION END HERE===================== */
+
 /* ======================MEDIA QUARY START HEER========================= */
+
 @media screen and (min-width:300px) and (max-width:390px){
     .banner-img img{
         margin-top: 5rem;
@@ -299,6 +306,7 @@
         height: 200px;
     }
 }
+
 @media screen and (max-width:576px) {
     .navber{
         flex-direction: column;
@@ -387,7 +395,24 @@
     .fact-items-container{
         margin: 3rem auto;
     }
+    .Sponspors-seciton{
+        width: 100%;
+        margin: -8rem auto;
+    }
+    .sponspors-images{
+        flex-direction: column;
+        padding: 0 2rem;
+    }
+    .sponspors-images img{
+        width: 50%;
+        margin-top: 3rem;
+        gap: 1rem;
+    }
+    .sponspors-content{
+        padding: 0 2rem;
+    }
 }
+
 @media screen and (min-width:576px) and (max-width:992px) {
     .navber{
         padding: 2rem 1rem;
@@ -465,5 +490,19 @@
     .fact-items-container{
         margin: 3rem auto;
     }
+    .Sponspors-seciton{
+        width: 100%;
+        margin: -25rem auto;
+    }
+    .sponspors-images{
+        flex-wrap: wrap;
+        padding: 0 2rem;
+    }
+    .sponspors-images img{
+        width: 30%;
+        margin-top: 3rem;
+        gap: 1rem;
+    }
 }
 /* ======================MEDIA QUARY END HEER========================= */
+
